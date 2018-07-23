@@ -275,4 +275,5 @@ function printFooter(testName, startTime) {
   const t = Math.round((Date.now() - startTime) / 10) / 100;
   console.log(green('Last step took ') + bold(blue(t)) + green('s...'));
   console.log('');
+  console.log('');
 }
